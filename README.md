@@ -2,7 +2,7 @@
 
 Una aplicación Flutter que genera combinaciones de colores aleatorios utilizando [The Color API](https://www.thecolorapi.com). Ideal para diseñadores, desarrolladores y creativos que buscan inspiración rápida para sus proyectos visuales.
 
-## 🚀 Características
+## Características
 
 - Generación automática de paletas de color.
 - Consulta de información detallada de cada color (hex, RGB, HSL, nombre).
@@ -14,7 +14,7 @@ Una aplicación Flutter que genera combinaciones de colores aleatorios utilizand
 
 - [The Color API](https://www.thecolorapi.com) — para obtener los colores, nombres y combinaciones.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - Flutter (Dart)
 - HTTP (`http` package) para conexión con la API.
