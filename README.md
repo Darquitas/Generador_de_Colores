@@ -1,17 +1,23 @@
-# Generador de Colores
+# 🎨 Generador de Colores
 
-Una aplicación Flutter sencilla que genera y muestra combinaciones de colores aleatorios. Ideal para diseñadores o desarrolladores que desean inspiración visual rápida.
+Una aplicación Flutter que genera combinaciones de colores aleatorios utilizando [The Color API](https://www.thecolorapi.com). Ideal para diseñadores, desarrolladores y creativos que buscan inspiración rápida para sus proyectos visuales.
 
-## Características
-- Generación de colores aleatorios (hex, RGB, HSL).
-- Interfaz intuitiva para copiar código de color fácilmente.
-- Opción de guardar paletas favoritas.
-- Histórico de paletas generadas.
+## 🚀 Características
 
-## Tecnologías utilizadas
+- Generación automática de paletas de color.
+- Consulta de información detallada de cada color (hex, RGB, HSL, nombre).
+- Interfaz moderna y fácil de usar.
+- Opción para copiar el código de color al portapapeles.
+- Visualización de colores individuales o paletas completas.
+
+## 🌐 API utilizada
+
+- [The Color API](https://www.thecolorapi.com) — para obtener los colores, nombres y combinaciones.
+
+## 🛠️ Tecnologías
+
 - Flutter (Dart)
-- Librerías: `provider` o `bloc` (gestion de estado opcional), `shared_preferences` para almacenar paletas.
-
-## Cómo usar
-1. Clona el repositorio:
+- HTTP (`http` package) para conexión con la API.
+- `flutter_clipboard` o similar para copiar texto.
+- Arquitectura sencilla basada en `setState` o `Provider`.
 
