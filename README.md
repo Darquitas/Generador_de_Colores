@@ -1,16 +1,17 @@
-# myapp
+# Generador de Colores
 
-A new Flutter project.
+Una aplicación Flutter sencilla que genera y muestra combinaciones de colores aleatorios. Ideal para diseñadores o desarrolladores que desean inspiración visual rápida.
 
-## Getting Started
+## Características
+- Generación de colores aleatorios (hex, RGB, HSL).
+- Interfaz intuitiva para copiar código de color fácilmente.
+- Opción de guardar paletas favoritas.
+- Histórico de paletas generadas.
 
-This project is a starting point for a Flutter application.
+## Tecnologías utilizadas
+- Flutter (Dart)
+- Librerías: `provider` o `bloc` (gestion de estado opcional), `shared_preferences` para almacenar paletas.
 
-A few resources to get you started if this is your first Flutter project:
+## Cómo usar
+1. Clona el repositorio:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
